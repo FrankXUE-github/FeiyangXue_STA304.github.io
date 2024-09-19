@@ -1,1 +1,85 @@
-# FeiyangXue_STA304.github.io
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .profile-pic {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            border-radius: 50%;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>欢迎来到我的个人主页</h1>
+</header>
+
+<section class="content">
+    <img src="profile.jpg" alt="个人照片" class="profile-pic">
+    <h2>关于我</h2>
+    <p>你好！我是一名热爱编程和技术的开发者。我喜欢探索新的技术并使用它们来解决实际问题。</p>
+
+    <h2>技能</h2>
+    <ul>
+        <li>HTML/CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>React</li>
+    </ul>
+
+    <h2>联系方式</h2>
+    <p>你可以通过以下方式联系我：</p>
+    <ul>
+        <li>邮箱: <a href="mailto:youremail@example.com">youremail@example.com</a></li>
+        <li>GitHub: <a href="https://github.com/yourgithub">github.com/yourgithub</a></li>
+    </ul>
+</section>
+
+<footer>
+    <p>版权所有 © 2024 我的个人主页</p>
+</footer>
+
+</body>
+</html>
